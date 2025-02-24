@@ -57,8 +57,7 @@ const Footer = () => {
       className="h-20"
     />
     <img
-      src="https://res.cloudinary.com/dt3effj06/image/upload/v1740393371/lekgttbp04mwatgpafki.svgo
-      // "
+      src="https://res.cloudinary.com/dt3effj06/image/upload/v1740393371/lekgttbp04mwatgpafki.svg"
       className="h-20"
     />
   </div>
