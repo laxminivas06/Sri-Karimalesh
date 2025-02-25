@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import { FaUtensils, FaLeaf, FaUserChef, FaClipboardList, FaSmile } from "react-icons/fa"; // Import icons from Font Awesome
 
 const About = () => {
   return (
@@ -109,17 +110,28 @@ const About = () => {
         >
           Why Choose Us?
         </motion.h3>
-        <p className="text-lg text-gray-800 mb-6 leading-relaxed">
-          - <strong>Authentic Flavors:</strong> We use traditional recipes passed down through generations.
-          <br />
-          - <strong>Fresh Ingredients:</strong> Only the finest and freshest ingredients are used in every dish.
-          <br />
-          - <strong>Experienced Chefs:</strong> Our chefs bring years of expertise and passion to the table.
-          <br />
-          - <strong>Customized Menus:</strong> Tailored to suit your preferences and event requirements.
-          <br />
-          - <strong>Unmatched Hospitality:</strong> We ensure every guest feels special and well taken care of.
-        </p>
+        <div className="text-lg text-gray-800 mb-6 leading-relaxed space-y-4">
+          <div className="flex items-center">
+            <FaUtensils className="text-orange-600 mr-4 text-2xl" />
+            <strong>Authentic Flavors:</strong> We use traditional recipes passed down through generations.
+          </div>
+          <div className="flex items-center">
+            <FaLeaf className="text-orange-600 mr-4 text-2xl" />
+            <strong>Fresh Ingredients:</strong> Only the finest and freshest ingredients are used in every dish.
+          </div>
+          <div className="flex items-center">
+            <FaUserChef className="text-orange-600 mr-4 text-2xl" />
+            <strong>Experienced Chefs:</strong> Our chefs bring years of expertise and passion to the table.
+          </div>
+          <div className="flex items-center">
+            <FaClipboardList className="text-orange-600 mr-4 text-2xl" />
+            <strong>Customized Menus:</strong> Tailored to suit your preferences and event requirements.
+          </div>
+          <div className="flex items-center">
+            <FaSmile className="text-orange-600 mr-4 text-2xl" />
+            <strong>Unmatched Hospitality:</strong> We ensure every guest feels special and well taken care of.
+          </div>
+        </div>
       </div>
 
       {/* Testimonials Section */}
