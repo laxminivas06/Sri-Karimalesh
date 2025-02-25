@@ -40,7 +40,7 @@ const About = () => {
           className="flex justify-center"
         >
           <img
-            src="https://res.cloudinary.com/dt3effj06/image/upload/v1740291043/chef_image.svg"
+            src="https://res.cloudinary.com/dt3effj06/image/upload/v1740451135/iuunwxehuixgo4is2kvv.jpg"
             alt="Chef at Sri Karimalesh Caterings"
             className="rounded-lg shadow-2xl w-full max-w-md border-4 border-orange-300 transform hover:scale-105 transition-transform duration-300"
           />

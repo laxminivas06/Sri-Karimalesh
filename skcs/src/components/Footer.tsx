@@ -38,10 +38,10 @@ const Footer = () => {
             <a href="https://wa.me/61450056387" target="_blank" rel="noopener noreferrer">
               <FaWhatsapp className="text-green-500 text-2xl hover:text-green-600 transition" /> {/* Changed icon color to green-500 */}
             </a>
-            <a href="https://instagram.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.instagram.com/srikarimaleshcaterers/" target="_blank" rel="noopener noreferrer">
               <FaInstagram className="text-pink-500 text-2xl hover:text-pink-600 transition" /> {/* Changed icon color to pink-500 */}
             </a>
-            <a href="https://facebook.com/" target="_blank" rel="noopener noreferrer">
+            <a href="https://www.facebook.com/profile.php?id=61573144006273" target="_blank" rel="noopener noreferrer">
               <FaFacebook className="text-blue-500 text-2xl hover:text-blue-600 transition" /> {/* Changed icon color to blue-500 */}
             </a>
           </div>
