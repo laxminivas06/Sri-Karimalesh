@@ -1,6 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
-import { FaUtensils, FaLeaf, FaUserChef, FaClipboardList, FaSmile } from "react-icons/fa"; // Import icons from Font Awesome
+import { FaUtensils, FaLeaf, FaUserTie, FaClipboardList, FaSmile } from "react-icons/fa"; // Import icons from Font Awesome
 
 const About = () => {
   return (
@@ -120,7 +120,7 @@ const About = () => {
             <strong>Fresh Ingredients:</strong> Only the finest and freshest ingredients are used in every dish.
           </div>
           <div className="flex items-center">
-            <FaUserChef className="text-orange-600 mr-4 text-2xl" />
+            <FaUserTie className="text-orange-600 mr-4 text-2xl" />
             <strong>Experienced Chefs:</strong> Our chefs bring years of expertise and passion to the table.
           </div>
           <div className="flex items-center">
@@ -163,16 +163,10 @@ const About = () => {
               author: "Arjun P.",
             },
           ].map((testimonial, index) => (
-            <motion.div
-              key={index}
-              initial={{ opacity: 0, y: 30 }}
-              animate={{ opacity: 1, y: 0 }}
-              transition={{ delay: index * 0.3, duration: 0.8 }}
-              className="text-left bg-orange-100 p-6 rounded-lg shadow-md border-l-4 border-orange-500"
-            >
-              <p className="text-lg text-gray-800 italic">"{testimonial.quote}"</p>
-              <p className="mt-4 text-orange-900 font-semibold">- {testimonial.author}</p>
-            </motion.div>
+            <div key={index} className="bg-white p-6 rounded-lg shadow-md">
+              <p className="text-gray-800 italic mb-4">"{testimonial.quote}"</p>
+              <p className="text-orange-900 font-semibold">- {testimonial.author}</p>
+            </div>
           ))}
         </div>
       </div>
@@ -184,16 +178,10 @@ const About = () => {
           { title: "1000+ Happy Customers", icon: "✨" },
           { title: "Award-Winning Recipes", icon: "🏆" },
         ].map((item, index) => (
-          <motion.div
-            key={index}
-            initial={{ opacity: 0, scale: 0.8 }}
-            animate={{ opacity: 1, scale: 1 }}
-            transition={{ delay: index * 0.3, duration: 0.8 }}
-            className="text-orange-900 text-center bg-gradient-to-br from-white to-orange-50 p-8 rounded-lg shadow-lg border-t-4 border-orange-500 flex-1 min-w-[250px] max-w-[300px] transform hover:scale-105 transition-transform duration-300"
-          >
-            <span className="text-5xl mb-4">{item.icon}</span>
-            <p className="mt-2 text-xl font-semibold">{item.title}</p>
-          </motion.div>
+          <div key={index} className="bg-white p-6 rounded-lg shadow-md text-center">
+            <div className="text-4xl mb-4">{item.icon}</div>
+            <p className="text-orange-900 font-semibold">{item.title}</p>
+          </div>
         ))}
       </div>
     </div>
