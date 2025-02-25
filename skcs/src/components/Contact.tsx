@@ -121,7 +121,7 @@ const Contact = () => {
                 <Mail className="w-6 h-6 text-orange-600 mr-4 mt-1" />
                 <div>
                   <h4 className="font-medium">Email</h4>
-                  <p className="text-gray-600">srikarimalesh@gmail.com</p>
+                  <p className="text-gray-600">srikarimaleshcaterers@gmail.com</p>
                 </div>
               </div>
               <div className="flex items-start">
@@ -129,7 +129,7 @@ const Contact = () => {
                 <div>
                   <h4 className="font-medium">Address</h4>
                   <p className="text-gray-600">
-                  27A Purcell Crescent,Lalor, <br />
+                  27A Purcell Crescent,Lalor Park, <br />
                     Sydney, NSW 2147<br />
                     Australia
                   </p>
