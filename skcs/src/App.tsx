@@ -42,6 +42,7 @@ function App() {
 
             {/* 📦 Meal Box Page */}
             <Route path="/mealbox" element={<><MealBox /><Contact /></>} />
+            <Route path="/testimonials" element={<Testimonials />} />
 
             {/* ✈️ Trip Packages Page */}
             <Route path="/trip-packages" element={<><TripPackages /><Contact /></>} />
