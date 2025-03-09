@@ -3,12 +3,12 @@ import { Link } from "react-router-dom"; // ✅ Import Link
 
 const quotes = [
   {
-    telugu: "రుచి రుచికి మించిన రుచి",
-    english: "A taste beyond all tastes",
+    telugu: "అన్నమే పరబ్రహ్మ స్వరూపం",
+    english: "Food is the embodiment of the divine",
   },
   {
-    telugu: "మా వంట మీ మనసు దోచుకుంటుంది",
-    english: "Our cooking will steal your heart",
+    telugu: "అన్నదానం మహాదానం",
+    english: "Offering food is the greatest charity",
   },
   {
     telugu: "ఆత్మీయతతో వడ్డించే విందు",
@@ -17,10 +17,11 @@ const quotes = [
 ];
 
 const backgroundImages = [
-  "https://cdn.prod.website-files.com/64931d2aee18510b47f4bb1f/64ecfa28965abfe67dffe8d1_pewsxzzjjtgmj5th716smsgba0gqj1wr.png",
-  "https://thumbs.dreamstime.com/b/onam-festival-food-spread-banana-leaf-traditional-south-indian-served-decorated-flowers-343070602.jpg",
-  "https://wallpapers.com/images/hd/traditional-thali-platter-indian-food-7ppdmw8bs4n1f36j.jpg",
+  "https://www.shutterstock.com/image-photo/andhra-special-vegetarian-tasty-meals-600nw-1811725393.jpg",
+  "https://b.zmtcdn.com/data/pictures/1/20149871/c51138261fc0d0627f03a5cd27e3ac25.jpg?fit=around%7C960:500&crop=960:500;*,*",
+  "https://cdn0.weddingwire.in/article/4333/3_2/960/jpg/123334-maharaja-bhog-2.jpeg",
   "https://savithrammas.com/site/image/cache/catalog/A-Guide-to-Savithrammas-Exotic-Pickles-and-Spices-1080x540.jpg",
+  "https://www.shutterstock.com/image-photo/andhra-pradesh-traditional-thali-india-600nw-2172140155.jpg",
 ];
 
 const Hero = () => {
